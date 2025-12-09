@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圖像滑塊拼圖</title>
+    <link rel="stylesheet" href="style-puzzle.css"> 
+    </head>
+<body>
+
+    <div class="puzzle-container">
+        <h1>滑塊拼圖遊戲</h1>
+        <div class="stats">
+            步數：<span id="moveCount">0</span>
+        </div>
+        
+        <div id="puzzleBoard" class="grid-3x3">
+            </div>
+
+        <button onclick="startGame()">開始新遊戲 / 打亂</button>
+
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="script-puzzle.js"></script>
+    </body>
+</html>
